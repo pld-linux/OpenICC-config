@@ -45,7 +45,7 @@ Biblioteka bazy danych konfiguracji OpenICC.
 Summary:	Header files for OpenICC library
 Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki OpenICC
 Group:		Development/Libraries
-Requires:	%{name}-libs = %{version}-%{release}
+Requires:	OpenICC-libs = %{version}-%{release}
 Requires:	yajl-devel
 
 %description -n OpenICC-devel
@@ -58,7 +58,7 @@ Pliki nagłówkowe biblioteki OpenICC.
 Summary:	Static OpenICC library
 Summary(pl.UTF-8):	Statyczna biblioteka OpenICC
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}-%{release}
+Requires:	OpenICC-devel = %{version}-%{release}
 
 %description -n OpenICC-static
 Static OpenICC library.
